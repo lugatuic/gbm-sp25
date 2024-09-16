@@ -1,5 +1,6 @@
 \documentclass{beamer}
 
+\usepackage{pdfpc-movie}
 \usepackage{svg}
 
 \usetheme{Boadilla}
@@ -101,18 +102,18 @@
 					\href{mailto:jcohen30@uic.edu}{\texttt{jcohen30@uic.edu}}
 				\item Maintaining LUG since 2024
 				\begin{itemize}
-					\item Uses Debian on home server
+					\item Distro: Debian 12 on Home PC
 					\item PhD Student under Professor Eriksson
 					\item Runs ACM's SIG Systems
 				\end{itemize}
 			\end{itemize}
 		\end{column}
-		% \begin{column}{0.50\textwidth}
-		% 	\begin{figure}
-		% 		\centering
-		% 		\includegraphics[width=\textwidth,angle=270]{jcohen30.jpg}
-		% 	\end{figure}
-		% \end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\pdfpcmovie[width=\textwidth,height=\textwidth,autostart,loop]{}{linux-kernel.mp4}
+			\end{figure}
+		\end{column}
 	\end{columns}
 \end{frame}
 
@@ -127,13 +128,15 @@
 				\item Maintaining LUG since 2021
 				\begin{itemize}
 					\item Distro: Linux Mint
-					\item Has a website \url{https://olympicene.dev/}
+					\item Has a website
+						\url{https://olympicene.dev/}
 					\item Loves movies!
-					\item Also has a homelab (Dell Poweredge R320)
+					\item Also has a homelab (Dell
+						Poweredge R320)
 				\end{itemize}
 			\end{itemize}
 		\end{column}
-		% \begin{column}{0.50\textwidth}
+		% \begin{column}{0.5\textwidth}
 		% 	\begin{figure}
 		% 		\centering
 		% 		\includegraphics[width=\textwidth,angle=270]{kcord2.jpg}
@@ -143,7 +146,8 @@
 \end{frame}
 
 \begin{frame}{Contact Us}
-	\Huge Email us! \href{mailto:lug-officers@uic.edu}{\texttt{lug-officers@uic.edu}}
+	\Huge Email us!
+	\href{mailto:lug-officers@uic.edu}{\texttt{lug-officers@uic.edu}}
 \end{frame}
 
 \section{What's Linux?}
@@ -169,6 +173,7 @@
 	\end{columns}
 \end{frame}
 
+\subsection{Why Linux?}
 \begin{frame}{Why Linux?}
 	\begin{itemize}
 		\item It's truly free!
@@ -185,6 +190,7 @@
 		\item Linux powers millions of devices like Android
 			smartphones, Chromebooks, and even the \textbf{top 500}
 			supercomputers in the world!
+			\pause
 		\item Unix-like systems like Linux are widespread in academia.
 			Learning its usage is beneficial to your research and
 			coursework!
@@ -211,7 +217,8 @@
 
 \begin{frame}{Past Presentations}
 	In the past, we've ran presentations/workshops on various topics to
-	spread knowledge of how to better use a Linux system. Some of these include:
+	spread knowledge of how to better use a Linux system. Some of these
+	include:
 	\pause
 	\begin{itemize}
 		\item Vim, the ubiquitous text editor
@@ -267,7 +274,8 @@
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.60\textwidth]{bad-apple.png}
-		\caption{Bad Apple on the Monitor Wall (\url{https://www.youtube.com/watch?v=IMMLflKIPig})}
+		\caption{Bad Apple on the Monitor Wall
+		(\url{https://www.youtube.com/watch?v=IMMLflKIPig})}
 	\end{figure}
 \end{frame}
 
@@ -349,9 +357,61 @@
 	announcements.
 \end{frame}
 
+\begin{frame}{Cyberforce}
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.9\textwidth]{cyberforce.png}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.6\textwidth}
+			This year, LUG members are representing UIC in the
+			Department of Energy's Cyberforce competition!
+			\pause
+			Cyberforce is a \underline{cybersecurity} competition
+			where members:
+			\begin{itemize}
+				\item solve CTFs
+					\pause
+				\item harden infrastructure against
+					\textit{actual} White Hat hackers
+					\pause
+				\item identify and re-secure breached machines
+					\pause
+			\end{itemize}
+		\end{column}
+	\end{columns}
+
+	\vspace{0.3cm}
+
+	The event is \underline{in-person} in St Charles, IL nearby Fermilab
+	and is a fun way to get hands on experience with system security
+	against \textbf{real professionals}.
+\end{frame}
+
+\begin{frame}{The Endless To-Do List}
+	We have some projects we'd like to get done, and we need help! If any
+	of these interest you, feel free to reach out to us.\footnote{
+		\href{mailto:lug-officers@uic.edu}{\texttt{lug-officers@uic.edu}}}
+	\pause
+
+	\begin{itemize}
+		\item Re-image \texttt{chopin}, a legacy server on the ACM/LUG
+			server rack.
+		\item Spin-up a Matrix homeserver and \underline{bridge} it
+			with the Discord.
+		\item Migrate our website off Github Pages and onto our own
+			server.
+		\item Add features to our website like a sidebar and search.
+	\end{itemize}
+\end{frame}
+
 \begin{frame}{Closing Remarks}
 	\begin{center}
-		\Huge Thank you!
+		{\Huge Thank you!}
+
+		\textit{We'll stick around to chat afterwards...}
 	\end{center}
 \end{frame}
 
