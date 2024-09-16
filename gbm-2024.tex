@@ -71,7 +71,7 @@
 			\begin{itemize}
 				\item {\Large Ethan Wong}
 				\item Contact:
-					\href{mailto:ewong25@uic.edu}{\url{ewong25@uic.edu}}
+					\href{mailto:ewong25@uic.edu}{\texttt{ewong25@uic.edu}}
 				\item Maintaining LUG since 2024
 				\begin{itemize}
 					\item Distro: Arch
@@ -81,10 +81,10 @@
 				\end{itemize}
 			\end{itemize}
 		\end{column}
-		\begin{column}{0.50\textwidth}
+		\begin{column}{0.5\textwidth}
 			\begin{figure}
 				\centering
-				\includegraphics[width=\textwidth,angle=270]{neko-homelab.jpg}
+				\includegraphics[width=0.9\textwidth,angle=270]{neko-homelab.jpg}
 				\caption{My Homelab}
 			\end{figure}
 		\end{column}
@@ -98,7 +98,7 @@
 			\begin{itemize}
 				\item {\Large Jacob Cohen}
 				\item Contact:
-					\href{mailto:jcohen30@uic.edu}{\url{jcohen30@uic.edu}}
+					\href{mailto:jcohen30@uic.edu}{\texttt{jcohen30@uic.edu}}
 				\item Maintaining LUG since 2024
 				\begin{itemize}
 					\item Uses Debian on home server
@@ -123,7 +123,7 @@
 			\begin{itemize}
 				\item {\Large Kevin Cordero}
 				\item Contact:
-					\href{mailto:kcord2@uic.edu}{\url{kcord2@uic.edu}}
+					\href{mailto:kcord2@uic.edu}{\texttt{kcord2@uic.edu}}
 				\item Maintaining LUG since 2021
 				\begin{itemize}
 					\item Distro: Linux Mint
@@ -143,7 +143,7 @@
 \end{frame}
 
 \begin{frame}{Contact Us}
-	\Huge Email us! \href{mailto:lug-officers@uic.edu}{\url{lug-officers@uic.edu}}
+	\Huge Email us! \href{mailto:lug-officers@uic.edu}{\texttt{lug-officers@uic.edu}}
 \end{frame}
 
 \section{What's Linux?}
@@ -151,8 +151,57 @@
 	\tableofcontents[currentsection]
 \end{frame}
 
-\begin{frame}
-	
+\begin{frame}{What's Linux?}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\textbf{Linux} is a free and open-source operating
+			system kernel. Linux is part of a family of operating
+			systems that bundle various pieces of software to form
+			a complete OS, called \underline{Linux distros}.
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includesvg[width=0.9\textwidth]{tux.svg}
+				\caption{Tux, the Linux mascot}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Why Linux?}
+	\begin{itemize}
+		\item It's truly free!
+			\pause
+			\begin{itemize}
+				\item Anyone can view, modify, and redistribute
+					the the kernel and its underlying
+					source code.
+					\pause
+				\item It's actually libre/available for no
+					charge.\footnote{most of the time}
+					\pause
+			\end{itemize}
+		\item Linux powers millions of devices like Android
+			smartphones, Chromebooks, and even the \textbf{top 500}
+			supercomputers in the world!
+		\item Unix-like systems like Linux are widespread in academia.
+			Learning its usage is beneficial to your research and
+			coursework!
+			\pause
+		\item Linux systems are tailored to software development,
+			programming and installing dependencies is far easier
+			on Linux than other operating systems.
+			\pause
+		\item It's \underline{not} Windows.
+			\pause
+			\begin{itemize}
+				\item Or macOS either...
+			\end{itemize}
+			\pause
+	\end{itemize}
+	Curious? Check out our Linux Week event coming soon!\footnote{will be
+	announced later in the presentation}
 \end{frame}
 
 \section{What We've Been Up To}
@@ -240,7 +289,22 @@
 \end{frame}
 
 \begin{frame}{Server Rack}
-
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.9\textwidth]{server-rack.jpg}
+				\caption{ACM/LUG Server Room}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.6\textwidth}
+			We share a server rack with \textbf{ACM}. \pause We own
+			our own server on the rack: \texttt{miku}.
+			\texttt{miku} is a Dell Poweredge R610 running Proxmox,
+			a KVM-based hypervisor which manages virtual machines.
+			This server has an overkill amount of hardware.
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \section{Future Plans}
@@ -250,10 +314,39 @@
 
 \begin{frame}{Tentative Semester Presentations}
 	We're proud to offer these topics as workshops this semester.
+	\pause
+	\begin{itemize}
+		\item Linux, Libreboot, and Thinkpads
+		\item Intermediate Tmux Usage
+		\item Homelabbing
+	\end{itemize}
+	\pause
+	\textit{If you want a specific topic covered or want to present your
+	own presentation, let us know!
+	\href{mailto:lug-officers@uic.edu}{\texttt{lug-officers@uic.edu}}}
 \end{frame}
 
 \begin{frame}{Linux Week}
-	Linux Week
+	Linux Week is our (somewhat) annual event where we teach introductory
+	Linux skills to newbies.
+	\pause
+
+	Linux Week 2024 is being held \underline{within the next two
+	weeks!}\footnote{pending room reservation from the university}
+	\pause
+	
+	Topics include:
+	\begin{itemize}
+		\item Installing Linux on Your Machine
+		\item Coreutils and Filesystem Usage
+		\item Package Management
+		\item Shell Scripting and Pipelines
+		\item Software Freedoms and Copyleft
+	\end{itemize}
+	\pause
+
+	Keep tabs on our Discord and the newsletter listserv for further
+	announcements.
 \end{frame}
 
 \begin{frame}{Closing Remarks}
